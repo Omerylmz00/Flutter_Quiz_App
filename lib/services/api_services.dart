@@ -3,8 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class GeminiService {
-  final String apiKey =
-      'AIzaSyD-OK8erE3PVc4bbHoSLenP7TXawKrJEEw'; // Buraya kendi API key’ini koy
+  final String apiKey = 'YOUR_API_KEY'; // Buraya kendi API key’ini koy
 
   Future<List<Map<String, dynamic>>> fetchQuizQuestions() async {
     final url = Uri.parse(
